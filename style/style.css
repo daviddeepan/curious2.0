@@ -1,0 +1,174 @@
+body{
+    background-color: #F0F0F3;
+
+}
+*{
+    background-color: #F0F0F3;
+
+}
+.cards{
+    background-color: #F0F0F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-section .hero-section{
+    background-color: #F0F0F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.gradient{
+    background-image: linear-gradient(to right, rgba(206, 192, 249, 1), rgba(95, 175, 254, 1), rgba(249, 149, 254, 1));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+/* card-section-1 stylings*/
+
+.card-section-1 .card1{
+    background-color: #F0F0F3;
+    border-radius: 10px;
+
+    box-shadow: -20px 20px 40px rgba(204, 204, 207, 0.2), 20px -20px 40px rgba(204, 204, 207, 0.2), -20px -20px 40px rgba(255, 255, 255, 0.9), 20px 20px 50px rgba(204, 204, 207, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(204, 204, 207, 0.5);
+    width: 916px;
+    height: 63px;
+    border:none  ;
+    margin-top: 40px;
+}
+.card1 .card-text{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* card-section-2 stylings*/
+
+
+.card-section-2 .card-2{
+    border: none;
+    background-color: #ffff;
+    margin-top: 80px;
+    height: 362px;
+    width: 642px;
+
+    box-shadow: -20px 20px 40px rgba(204, 204, 204, 0.2), 20px -20px 40px rgba(204, 204, 204, 0.2), -20px -20px 40px rgba(255, 255, 255, 0.9), 20px 20px 50px rgba(204, 204, 204, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(204, 204, 204, 0.5);
+    
+    border-radius: 20px;
+}
+
+.card-2 .card-title{
+    background-image: linear-gradient(to right, rgba(206, 192, 249, 1), rgba(95, 175, 254, 1), rgba(249, 149, 254, 1));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+
+    margin-top: 3px;
+}
+
+.btn{
+    width: 260px;
+    height: 40.15px;
+    background-color: #F0F0F3;
+    border: none;
+    border-radius: 21.3535px;
+
+    box-shadow: -2.17893px -2.17893px 6.5368px #FFFFFF, 2.17893px 2.17893px 6.5368px rgba(174, 174, 192, 0.4);
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    color: #728AB7;
+}
+
+.card-2 .card-text{
+    padding: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+/* card-section-3 stylings*/
+.card-section-3 .links{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-section-3 .card-3{
+    height: 214px;
+    width: 877px;
+    margin-top: 25px;
+    box-shadow: -20px 20px 40px rgba(204, 204, 204, 0.2), 20px -20px 40px rgba(204, 204, 204, 0.2), -20px -20px 40px rgba(255, 255, 255, 0.9), 20px 20px 50px rgba(204, 204, 204, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(204, 204, 204, 0.5);
+    border: none;
+    border-radius: 20px;
+
+}
+
+.card-section-3 .card-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.links .twitter{
+    padding-left: 200px;
+}
+
+
+.links .insta, .meet{
+    padding-left: 50px;
+}
+
+.hero-section h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 100px; 
+    line-height: 100%;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.3);
+}
+
+.hero-section h2{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #595959;
+}
+
+.hero-section p{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 23px;
+    line-height: 6px;
+    font-weight: 400;
+}
+
+.navbar .navbar-brand{
+   background-color: #F0F0F3    ;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: #525252;
+    font-size: 25px;
+}
+
+.navbar .nav-link{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #575757;
+    font-size: 23px;
+}
+
